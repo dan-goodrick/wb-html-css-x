@@ -1,0 +1,40 @@
+div {
+  float:left;
+}
+footer {
+  float:left;
+}
+.header {
+	height: 15vh;
+  background-color: rgb(73, 72, 72);
+}
+.left {
+	width: 15vw;
+	height: 75vh;
+  background-color: rgb(216, 213, 213);
+}
+.middle {
+	width: 70vw;
+	height: 75vh;
+  background-color: white;
+}
+.right {
+	width: 15vw;
+	height: 75vh;
+  background-color: rgb(216, 213, 213);
+}
+.footerLeft {
+  width: 15vw;
+	height: 10vh;
+  background-color: rgb(216, 213, 213);
+}
+.footerMiddle {
+  width: 70vw;
+	height: 10vh;
+  background-color: black;
+}
+.footerRight {
+  width: 15vw;
+	height: 10vh;
+  background-color: rgb(216, 213, 213);
+}
