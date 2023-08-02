@@ -62,4 +62,7 @@ p {
   line-height: 1.25;
   display: inline-block;
   vertical-align: middle;
+  letter-spacing: 10px;
+  color: navy;
+
 }
