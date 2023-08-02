@@ -1,0 +1,43 @@
+header {
+  background-color: gray;
+  width:100vw;
+  height: 15vh;
+}
+
+.text{
+  margin: 20px;
+  height: 20vh;
+  font-size:xx-large;
+}
+.blue{
+  background-color: rgb(55, 90, 248);
+  width:100vw;
+  height: 15vh;
+}
+
+.blueGreen{
+  background-color: rgb(111, 232, 192);
+  width:100vw;
+  height: 15vh;
+}
+
+.greenYellow{
+  background-color: rgb(203, 241, 121);
+  width:100vw;
+  height: 15vh;
+}
+
+.yellow{
+  background-color: yellow;
+  width:100vw;
+  height: 15vh;
+}
+
+#square {
+  background-color: rgb(55, 90, 248);
+  width:10vh;
+  height:10vh;
+  position: relative;
+  /* bottom:50%; */
+  transform: translate(25%, 25%);
+}

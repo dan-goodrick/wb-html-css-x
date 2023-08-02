@@ -1,40 +1,33 @@
-div {
-  float:left;
+
+header {
+  height:15vh;
+  width:100vw;
+  background: rgb(60, 60, 60);
 }
-footer {
-  float:left;
+
+body{
+  height:85vh;
+  width:100vw;
+  background: lightgray;
 }
-.header {
-	height: 15vh;
-  background-color: rgb(73, 72, 72);
+
+
+#footer {
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom:0;
+  height:10vh;
+  width:80vw;
+  background: black;
 }
-.left {
-	width: 15vw;
-	height: 75vh;
-  background-color: rgb(216, 213, 213);
+
+#content {
+  position:absolute;
+  left: 50%;
+  transform: translate(-50%); 
+  height:75vh;
+  width:80vw; 
+  background: white;
 }
-.middle {
-	width: 70vw;
-	height: 75vh;
-  background-color: white;
-}
-.right {
-	width: 15vw;
-	height: 75vh;
-  background-color: rgb(216, 213, 213);
-}
-.footerLeft {
-  width: 15vw;
-	height: 10vh;
-  background-color: rgb(216, 213, 213);
-}
-.footerMiddle {
-  width: 70vw;
-	height: 10vh;
-  background-color: black;
-}
-.footerRight {
-  width: 15vw;
-	height: 10vh;
-  background-color: rgb(216, 213, 213);
-}
+

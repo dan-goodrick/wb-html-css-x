@@ -3,53 +3,63 @@ div {
 }
 
 #tallRect {
-  width: 2vw;
-  height: 8vh;
+  width: 3vw;
+  height: 15vh;
   background: purple;
   margin:20px;
   
 }
 #wideRect {
-  width: 10vw;
-  height: 10vh;
+  width: 40vw;
+  height: 25vh;
   background: green;
   margin:20px;
 }
+
 #yellowRect {
-  width: 75vw;
+  width: 95%;
   box-shadow: 5px 10px;
   height: 80%;
   background: lightgoldenrodyellow;
   margin:2vh;
 }
 #circle {
-  width: 10vh;
-  height: 10vh;
+  width: 25vh;
+  height: 25vh;
   border-radius: 50%;
   background: lightblue;
   margin:2vh;
 }
 
 #first {
-  border: solid black; 
-  width:80vw;
-  height: 15vh;
-  margin:5vw;
+  border: solid black 5px; 
+  width:98vw;
+  height: 30vh;
+  margin:1vh;
+  vertical-align: bottom;
 }
 #second {
   border: dashed black; 
-  width:80vw;
-  height:30vh;
-  margin:5vw;
+  width:98vw;
+  height: 33vh;
+  margin:1vh;
 }
 #third {
   box-shadow: 5px 10px;
-  border: solid black; 
+  position:absolute;
+  left: 50%;
+  bottom: 2vh;
+  transform: translate(-50%); 
+  border: solid black 2px; 
   width:50vw;
-  font-size:1vh 1vw;
-  justify-content: center;
-  height: 33vh;
-  margin:5vw;
-  
+  height: 28vh;
+  margin:1vh;
+  font-size: 200%;
+  text-align: center;
 }
 
+p {
+  line-height: 1.25;
+  display: inline-block;
+  vertical-align: middle;
+}
